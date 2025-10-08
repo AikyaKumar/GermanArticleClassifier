@@ -20,10 +20,3 @@ def classify_article(noun):
         if noun in nouns:
             return article
     return "Unknown"  # If the noun is not in the dictionary
-
-# Example usage
-# test_nouns = ["Hund", "Katze", "Auto", "Tisch", "Uhr", "Buch", "Lampe"]
-
-# for noun in test_nouns:
-#     article = classify_article(noun)
-#     print(f"{article} {noun}")
